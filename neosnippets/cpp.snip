@@ -104,3 +104,23 @@ abbr        #include<iostream> int main...
 snippet     p
 options     head
   std::cout << ${0:TARGET} << std::endl;
+
+snippet cppio
+options head
+  /**
+  *    author:  RIORAO
+  **/
+
+  #include <bits/stdc++.h>
+
+  using namespace std;
+
+  int main() {
+    cin.tie(0);
+    ios_base::sync_with_stdio(false);
+
+    /// code...
+    ${0:CODE}
+
+    return 0;
+  }
